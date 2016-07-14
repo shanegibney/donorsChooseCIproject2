@@ -1,0 +1,507 @@
+{
+  "index": "0",
+  "max": "10",
+  "proposals": [{
+        "totalPrice": "553.87",
+        "percentFunded": "91",
+        "additionalSubjects": [{
+          "id": "27",
+          "groupId": "2",
+          "name": "Health & Wellness"
+        }],
+        "schoolName": "Maplewood Elementary School",
+        "fundURL": "https://secure.donorschoose.org/donors/givingCart.html?proposalid=2037295&donationAmount=45&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE",
+        "professionalDevelopment": false,
+        "expirationDate": "2016-10-19",
+        "proposalURL": "https://www.donorschoose.org/project/stand-up-sit-down-learn-learn-learn/2037295/?utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE",
+        "teacherName": "Mrs. Becker",
+        "numStudents": "22",
+        "shortDescription": "I teach at a vibrant, diverse, culturally, and socially aware campus on the east side of Austin, Texas. Our campus participates in Arts Integration, No Place for Hate, Social Emotional Learning,...",
+        "id": "2037295",
+        "snippets": [],
+        "subject": {
+          "id": "23",
+          "groupId": "7",
+          "name": "Special Needs"
+        },
+        "city": "Austin",
+        "fundingStatus": "needs funding",
+        "povertyLevel": "High Poverty",
+        "zip": "78722-1599",
+        "title": "Stand Up! Sit Down! Learn, Learn, Learn! Go Alternative Seating!",
+        "freeShipping": "true",
+        "imageURL": "https://storage.donorschoose.net/dc_prod/images/user/small/u3642206_sm.jpg?timestamp=1466019269393",
+        "schoolUrl": "https://www.donorschoose.org/school/maplewood-elementary-school/15781/",
+        "state": "TX",
+        "costToComplete": "47.99",
+        "latitude": "30.293343000000000",
+        "numDonors": "12",
+        "stateFullName": "Texas",
+        "fulfillmentTrailer": "My students need choices for seating in the classroom. The wobble chairs will not only help improve learning, but will improve core strength for my students.",
+        "resource": {
+          "id": "3",
+          "name": "Supplies"
+        },
+        "zone": {
+          "id": "321",
+          "name": "Texas"
+        },
+        "studentLed": false,
+        "gradeLevel": {
+          "id": "1",
+          "name": "Grades PreK-2"
+        },
+        "longitude": "-97.714912000000000",
+        "thumbImageURL": "https://storage.donorschoose.net/dc_prod/images/user/small/u3642206_sm.jpg?timestamp=1466019269393",
+        "teacherTypes": [],
+        "matchingFund": {
+          "donorSalutation": "",
+          "name": "",
+          "amount": "0.00",
+          "faqURL": "",
+          "logoURL": "",
+          "matchingKey": "",
+          "type": "",
+          "ownerRegion": "",
+          "description": ""
+        },
+        "teacherId": "3642206",
+        "schoolTypes": [{
+          "id": 12,
+          "name": "Horace Mann (partner)"
+        }]
+      }, {
+        "totalPrice": "394.41",
+        "percentFunded": "79",
+        "additionalSubjects": [{
+          "id": "3",
+          "groupId": "6",
+          "name": "Literature & Writing"
+        }],
+        "schoolName": "Lafayette Middle School",
+        "teacherFFPromoCodeFund": {
+          "donorSalutation": "The DonorsChoose.org Community",
+          "code": "LIFTOFF",
+          "name": "Matching Donor",
+          "eligible": "true",
+          "deadline": "July 12",
+          "logoURL": "liftoff.gif",
+          "matchingKey": "teachProm8P",
+          "type": "PROMO",
+          "ownerRegion": "National",
+          "description": ""
+        },
+        "fundURL": "https://secure.donorschoose.org/donors/givingCart.html?proposalid=2017877&donationAmount=45&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE",
+        "professionalDevelopment": false,
+        "expirationDate": "2016-11-05",
+        "proposalURL": "https://www.donorschoose.org/project/new-books-for-my-super-awesome-students/2017877/?utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE",
+        "teacherName": "Mrs. Ardoin",
+        "numStudents": "65",
+        "shortDescription": "My school has 91.2% of students on free and reduced lunch. It is the worst in our school district for both academics and behavior. Currently, we are a \"D\" performing school. We have had the most...",
+        "id": "2017877",
+        "snippets": [],
+        "subject": {
+          "id": "10",
+          "groupId": "6",
+          "name": "Literacy"
+        },
+        "city": "Lafayette",
+        "fundingStatus": "needs funding",
+        "povertyLevel": "Highest Poverty",
+        "zip": "70506-3498",
+        "title": "New Books For My Super Awesome Students!",
+        "freeShipping": "true",
+        "imageURL": "https://storage.donorschoose.net/dc_prod/images/user/small/u3626582_sm.jpg?timestamp=1467772437897",
+        "schoolUrl": "https://www.donorschoose.org/school/lafayette-middle-school/16387/",
+        "state": "LA",
+        "costToComplete": "84.41",
+        "latitude": "30.224740000000000",
+        "numDonors": "9",
+        "stateFullName": "Louisiana",
+        "fulfillmentTrailer": "My students need books that speak to their interests to inspire them to read more!",
+        "resource": {
+          "id": "1",
+          "name": "Books"
+        },
+        "zone": {
+          "id": "322",
+          "name": "Louisiana"
+        },
+        "studentLed": false,
+        "gradeLevel": {
+          "id": "3",
+          "name": "Grades 6-8"
+        },
+        "longitude": "-92.027515000000000",
+        "thumbImageURL": "https://storage.donorschoose.net/dc_prod/images/user/small/u3626582_sm.jpg?timestamp=1467772437897",
+        "teacherTypes": [],
+        "matchingFund": {
+          "donorSalutation": "",
+          "name": "",
+          "amount": "0.00",
+          "faqURL": "",
+          "logoURL": "",
+          "matchingKey": "",
+          "type": "",
+          "ownerRegion": "",
+          "description": ""
+        },
+        "teacherId": "3626582",
+        "schoolTypes": [{
+          "id": 12,
+          "name": "Horace Mann (partner)"
+        }]
+      }, {
+        "totalPrice": "458.85",
+        "percentFunded": "88",
+        "schoolName": "Harvey Milk Civil Rights Academy",
+        "fundURL": "https://secure.donorschoose.org/donors/givingCart.html?proposalid=1980552&donationAmount=45&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE",
+        "professionalDevelopment": false,
+        "expirationDate": "2016-08-25",
+        "proposalURL": "https://www.donorschoose.org/project/lets-get-them-chit-chatting-with-confid/1980552/?utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE",
+        "teacherName": "Ms. Eberhardt",
+        "numStudents": "20",
+        "shortDescription": "My students attend a weekly \"Speech Club\" to improve their articulation skills. I serve pre-k through 5th grade in an inclusion based elementary school program. My school is located in the heart...",
+        "id": "1980552",
+        "snippets": [],
+        "subject": {
+          "id": "23",
+          "groupId": "7",
+          "name": "Special Needs"
+        },
+        "city": "San Francisco",
+        "fundingStatus": "needs funding",
+        "povertyLevel": "High Poverty",
+        "zip": "94114-2415",
+        "title": "Let's Get Them Chit Chatting with Confidence, Articulate it!",
+        "freeShipping": "false",
+        "imageURL": "https://storage.donorschoose.net/dc_prod/images/user/small/u1950597_sm.jpg?timestamp=1378268116798",
+        "schoolUrl": "https://www.donorschoose.org/school/harvey-milk-civil-right-acad/4416/",
+        "state": "CA",
+        "costToComplete": "55.65",
+        "latitude": "37.759073000000000",
+        "numDonors": "11",
+        "stateFullName": "California",
+        "fulfillmentTrailer": "My students need speech tools for better articulation skills! Please help them master those difficult to produce sounds such as the /r/sound by using talk tools.",
+        "resource": {
+          "id": "3",
+          "name": "Supplies"
+        },
+        "zone": {
+          "id": "402",
+          "name": "California (North)"
+        },
+        "studentLed": false,
+        "gradeLevel": {
+          "id": "1",
+          "name": "Grades PreK-2"
+        },
+        "longitude": "-122.436365000000000",
+        "thumbImageURL": "https://storage.donorschoose.net/dc_prod/images/user/small/u1950597_sm.jpg?timestamp=1378268116798",
+        "teacherTypes": [],
+        "matchingFund": {
+          "donorSalutation": "",
+          "name": "",
+          "amount": "0.00",
+          "faqURL": "",
+          "logoURL": "",
+          "matchingKey": "",
+          "type": "",
+          "ownerRegion": "",
+          "description": ""
+        },
+        "teacherId": "1950597",
+        "schoolTypes": []
+      }, {
+        "totalPrice": "793.80",
+        "percentFunded": "88",
+        "schoolName": "John Barry Elementary School",
+        "teacherFFPromoCodeFund": {
+          "donorSalutation": "The DonorsChoose.org Community",
+          "code": "LIFTOFF",
+          "name": "Matching Donor",
+          "eligible": "true",
+          "deadline": "July 15",
+          "logoURL": "liftoff.gif",
+          "matchingKey": "teachProm8P",
+          "type": "PROMO",
+          "ownerRegion": "National",
+          "description": ""
+        },
+        "fundURL": "https://secure.donorschoose.org/donors/givingCart.html?proposalid=2052609&donationAmount=45&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE",
+        "professionalDevelopment": false,
+        "expirationDate": "2016-11-07",
+        "proposalURL": "https://www.donorschoose.org/project/alternate-seating-choices-for-fourth-gra/2052609/?utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE",
+        "teacherName": "Ms. Cleveland",
+        "numStudents": "22",
+        "shortDescription": "My classroom is full of energetic, eager fourth graders. The students in my classroom are very diverse in their backgrounds and learning needs. I teach in a low-income, urban community where...",
+        "id": "2052609",
+        "snippets": [],
+        "subject": {
+          "id": "3",
+          "groupId": "6",
+          "name": "Literature & Writing"
+        },
+        "city": "Meriden",
+        "fundingStatus": "needs funding",
+        "povertyLevel": "Highest Poverty",
+        "zip": "06451-3198",
+        "title": "Alternate Seating Choices for Fourth Graders",
+        "freeShipping": "true",
+        "imageURL": "https://storage.donorschoose.net/dc_prod/images/user/small/u3665862_sm.jpg?timestamp=1467851801087",
+        "schoolUrl": "https://www.donorschoose.org/school/john-barry-elementary-school/43979/",
+        "state": "CT",
+        "costToComplete": "98.21",
+        "latitude": "41.545405000000000",
+        "numDonors": "21",
+        "stateFullName": "Connecticut",
+        "fulfillmentTrailer": "My students need flexible, alternative seating arrangements, Hokki stools and balance balls, in the classroom to enhance their learning!",
+        "resource": {
+          "id": "3",
+          "name": "Supplies"
+        },
+        "zone": {
+          "id": "101",
+          "name": "Connecticut"
+        },
+        "studentLed": false,
+        "gradeLevel": {
+          "id": "2",
+          "name": "Grades 3-5"
+        },
+        "longitude": "-72.802756000000000",
+        "thumbImageURL": "https://storage.donorschoose.net/dc_prod/images/user/small/u3665862_sm.jpg?timestamp=1467851801087",
+        "teacherTypes": [],
+        "matchingFund": {
+          "donorSalutation": "",
+          "name": "",
+          "amount": "0.00",
+          "faqURL": "",
+          "logoURL": "",
+          "matchingKey": "",
+          "type": "",
+          "ownerRegion": "",
+          "description": ""
+        },
+        "teacherId": "3665862",
+        "schoolTypes": [{
+          "id": 3,
+          "name": "Special Education"
+        }, {
+          "id": 12,
+          "name": "Horace Mann (partner)"
+        }]
+      }, {
+        "totalPrice": "607.27",
+        "percentFunded": "80",
+        "additionalSubjects": [{
+          "id": "18",
+          "groupId": "5",
+          "name": "Early Development"
+        }],
+        "schoolName": "Austin D Baltz Elementary School",
+        "teacherFFPromoCodeFund": {
+          "donorSalutation": "The DonorsChoose.org Community",
+          "code": "LIFTOFF",
+          "name": "Matching Donor",
+          "eligible": "true",
+          "deadline": "July 18",
+          "logoURL": "liftoff.gif",
+          "matchingKey": "teachProm8P",
+          "type": "PROMO",
+          "ownerRegion": "National",
+          "description": ""
+        },
+        "fundURL": "https://secure.donorschoose.org/donors/givingCart.html?proposalid=2054938&donationAmount=45&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE",
+        "professionalDevelopment": false,
+        "expirationDate": "2016-11-11",
+        "proposalURL": "https://www.donorschoose.org/project/a-cozy-place-to-learn/2054938/?utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE",
+        "teacherName": "Mrs. Sedar",
+        "numStudents": "24",
+        "shortDescription": "My Kindergarten class is a diverse group of new and enthusiastic students. My class is curious and motivated to investigate!
+
+          We are considered an at\ "At Risk\" population who strive to beat the...",
+        "id": "2054938",
+        "snippets": [],
+        "subject": {
+          "id": "10",
+          "groupId": "6",
+          "name": "Literacy"
+        },
+        "city": "Wilmington",
+        "fundingStatus": "needs funding",
+        "povertyLevel": "Highest Poverty",
+        "zip": "19805-2148",
+        "title": "A Cozy Place to Learn",
+        "freeShipping": "true",
+        "imageURL": "https://storage.donorschoose.net/dc_prod/images/user/small/u3652577_sm.jpg?timestamp=1468081103240",
+        "schoolUrl": "https://www.donorschoose.org/school/austin-d-baltz-elementary-school/44524/",
+        "state": "DE",
+        "costToComplete": "123.27",
+        "latitude": "39.743954000000000",
+        "numDonors": "13",
+        "stateFullName": "Delaware",
+        "fulfillmentTrailer": "My students need a new carpet after our classroom was infested by mice! Sadly, mouse droppings ruined our classroom carpet which we use daily during times of instruction, movement, and play.",
+        "resource": {
+          "id": "3",
+          "name": "Supplies"
+        },
+        "zone": {
+          "id": "111",
+          "name": "Delaware"
+        },
+        "studentLed": false,
+        "gradeLevel": {
+          "id": "1",
+          "name": "Grades PreK-2"
+        },
+        "longitude": "-75.599113000000000",
+        "thumbImageURL": "https://storage.donorschoose.net/dc_prod/images/user/small/u3652577_sm.jpg?timestamp=1468081103240",
+        "teacherTypes": [],
+        "matchingFund": {
+          "donorSalutation": "",
+          "name": "",
+          "amount": "0.00",
+          "faqURL": "",
+          "logoURL": "",
+          "matchingKey": "",
+          "type": "",
+          "ownerRegion": "",
+          "description": ""
+        },
+        "teacherId": "3652577",
+        "schoolTypes": [{
+          "id": 14,
+          "name": "Kia (partner)"
+        }, {
+          "id": 17,
+          "name": "Kia (partner)"
+        }, {
+          "id": 15,
+          "name": "Kia (partner)"
+        }, {
+          "id": 3,
+          "name": "Special Education"
+        }, {
+          "id": 12,
+          "name": "Horace Mann (partner)"
+        }]
+      }, {
+        "totalPrice": "769.34",
+        "percentFunded": "87",
+        "schoolName": "Long Middle School",
+        "fundURL": "https://secure.donorschoose.org/donors/givingCart.html?proposalid=1972047&donationAmount=45&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE",
+        "professionalDevelopment": false,
+        "expirationDate": "2016-08-17",
+        "proposalURL": "https://www.donorschoose.org/project/add-fire-to-our-researching-and-reading/1972047/?utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE",
+        "teacherName": "Mrs. G.",
+        "numStudents": "85",
+        "shortDescription": "The more that you read,
+        The more things you will know.
+        The more that you learn,
+        The more places you 'll go.
+
+        by Dr.Seuss.
+
+        I think Dr.Seuss says it all with these lines!Students want to...
+        ","
+        id ":"
+        1972047 ","
+        snippets ":[],"
+        subject ":{"
+        id ":"
+        3 ","
+        groupId ":"
+        6 ","
+        name ":"
+        Literature & Writing "},"
+        city ":"
+        Cheraw ","
+        fundingStatus ":"
+        needs funding ","
+        povertyLevel ":"
+        Highest Poverty ","
+        zip ":"
+        29520 - 2112 ","
+        title ":"
+        Add Fire To Our Researching And Reading!","
+        freeShipping ":"
+        true ","
+        imageURL ":"
+        https: //storage.donorschoose.net/dc_prod/images/user/small/u3226882_sm.jpg?timestamp=1457403621964","schoolUrl":"https://www.donorschoose.org/school/long-middle-school/6553/","state":"SC","costToComplete":"98.26","latitude":"34.696040000000000","numDonors":"11","stateFullName":"South Carolina","fulfillmentTrailer":"My students need ten Kindle Fires and cases for small group work, research, and reading activities.","resource":{"id":"2","name":"Technology"},"zone":{"id":"303","name":"South Carolina"},"studentLed":false,"gradeLevel":{"id":"3","name":"Grades 6-8"},"longitude":"-79.906774000000000","thumbImageURL":"https://storage.donorschoose.net/dc_prod/images/user/small/u3226882_sm.jpg?timestamp=1457403621964","teacherTypes":[{"id":9,"name":"NEA member"}],"matchingFund":{"donorSalutation":"","name":"","amount":"0.00","faqURL":"","logoURL":"","matchingKey":"","type":"","ownerRegion":"","description":""},"teacherId":"3226882","schoolTypes":[{"id":12,"name":"Horace Mann (partner)"}]},{"totalPrice":"665.07","percentFunded":"90","additionalSubjects":[{"id":"10","groupId":"6","name":"Literacy"}],"schoolName":"Mountain View Elementary School","fundURL":"https://secure.donorschoose.org/donors/givingCart.html?proposalid=1975643&donationAmount=45&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE","professionalDevelopment":false,"expirationDate":"2016-09-20","proposalURL":"https://www.donorschoose.org/project/tablet-into-learning/1975643/?utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE","teacherName":"Ms. Stewart","numStudents":"25","shortDescription":"My students come from a very diverse background. Our school is a low poverty school with many students only receiving academic support during school hours. Many of my students are English language...","id":"1975643","snippets":[],"subject":{"id":"8","groupId":"4","name":"Mathematics"},"city":"Salt Lake Cty","fundingStatus":"needs funding","povertyLevel":"Highest Poverty","zip":"84104-3444","title":"Tablet into Learning","freeShipping":"true","imageURL":"https://storage.donorschoose.net/dc_prod/images/user/small/u1539403_sm.jpg?timestamp=1449081155276","schoolUrl":"https://www.donorschoose.org/school/mountain-view-elementary-school/33229/","state":"UT","costToComplete":"65.07","latitude":"40.739076000000000","numDonors":"8","stateFullName":"Utah","fulfillmentTrailer":"My students need tablets, screen protectors and memory cards to make progress in their learning in both math and reading skills.","resource":{"id":"2","name":"Technology"},"zone":{"id":"424","name":"Utah"},"studentLed":false,"gradeLevel":{"id":"1","name":"Grades PreK-2"},"longitude":"-111.929640000000000","thumbImageURL":"https://storage.donorschoose.net/dc_prod/images/user/small/u1539403_sm.jpg?timestamp=1449081155276","teacherTypes":[{"id":9,"name":"NEA member"}],"matchingFund":{"donorSalutation":"Neukom Family Foundation","name":"Neukom Family Foundation","amount":"0.00","faqURL":"https://www.donorschoose.org/donors/matching_grant_popup.html?matchingKey=NEUKOM17","logoURL":"https://cdn.donorschoose.net/images/logos/neukom_135.gif","matchingKey":"NEUKOM17","type":"AUTO_DONATION_MATCH","ownerRegion":"","description":"
+
+
+
+        \r\ n\ r\ n
+        Donations to this project are now being matched,
+        thanks to support from Neukom Family Foundation.
+
+        \r\ n\ r\ n
+        Neukom Family Foundation is thrilled to support early childhood literacy projects.We believe in the importance of equipping young learners with the tools they need to be successful.
+
+        \r\ n\ r\ n
+        See all projects eligible
+        for this match offer.
+
+        "},"
+        teacherId ":"
+        1539403 ","
+        schoolTypes ":[{"
+        id ":13,"
+        name ":"
+        CenturyLink "},{"
+        id ":17,"
+        name ":"
+        Kia(partner)
+        "},{"
+        id ":3,"
+        name ":"
+        Special Education "},{"
+        id ":12,"
+        name ":"
+        Horace Mann(partner)
+        "}]},{"
+        totalPrice ":"
+        531.40 ","
+        percentFunded ":"
+        83 ","
+        additionalSubjects ":[{"
+        id ":"
+        9 ","
+        groupId ":"
+        3 ","
+        name ":"
+        History & Geography "}],"
+        schoolName ":"
+        Gowan Science Academy ","
+        fundURL ":"
+        https: //secure.donorschoose.org/donors/givingCart.html?proposalid=2050177&donationAmount=45&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE","professionalDevelopment":false,"expirationDate":"2016-11-04","proposalURL":"https://www.donorschoose.org/project/changing-the-world-one-novel-at-a-time/2050177/?utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE","teacherName":"Ms. Fulton","numStudents":"60","shortDescription":"At Gowan Science Academy, we believe that our students have the right to learn without limits. My students are readers, writers, and scientists. They are curious and inspired by the world around...","id":"2050177","snippets":[],"subject":{"id":"10","groupId":"6","name":"Literacy"},"city":"Yuma","fundingStatus":"needs funding","povertyLevel":"Highest Poverty","zip":"85364-4118","title":"Changing the World, One Novel at a Time","freeShipping":"true","imageURL":"https://storage.donorschoose.net/dc_prod/images/user/small/u3092255_sm.jpg?timestamp=1442088962757","schoolUrl":"https://www.donorschoose.org/school/gowan-science-academy/106733/","state":"AZ","costToComplete":"88.40","latitude":"32.698714882135391","numDonors":"10","stateFullName":"Arizona","fulfillmentTrailer":"My students need access to engaging texts to foster a deep love of reading as well as opportunities to make connections to the real world and the STEM concepts our school are founded on.","resource":{"id":"1","name":"Books"},"zone":{"id":"421","name":"Arizona"},"studentLed":false,"gradeLevel":{"id":"3","name":"Grades 6-8"},"longitude":"-114.667460247874260","thumbImageURL":"https://storage.donorschoose.net/dc_prod/images/user/small/u3092255_sm.jpg?timestamp=1442088962757","teacherTypes":[],"matchingFund":{"donorSalutation":"","name":"","amount":"0.00","faqURL":"","logoURL":"","matchingKey":"","type":"","ownerRegion":"","description":""},"teacherId":"3092255","schoolTypes":[{"id":1,"name":"Charter"},{"id":12,"name":"Horace Mann (partner)"}]},{"totalPrice":"335.61","percentFunded":"79","schoolName":"Paseo Hills Elementary School","teacherFFPromoCodeFund":{"donorSalutation":"The DonorsChoose.org Community","code":"LIFTOFF","name":"Matching Donor","eligible":"true","deadline":"July 17","logoURL":"liftoff.gif","matchingKey":"teachProm8P","type":"PROMO","ownerRegion":"National","description":""},"fundURL":"https://secure.donorschoose.org/donors/givingCart.html?proposalid=2054740&donationAmount=45&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE","professionalDevelopment":false,"expirationDate":"2016-11-09","proposalURL":"https://www.donorschoose.org/project/creating-fluent-readers/2054740/?utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE","teacherName":"Ms. Myers","numStudents":"30","shortDescription":"I work in a Title I school in Phoenix, AZ. My students come to school every day with smiling faces ready to learn. I have a group of kind, hardworking and vibrant students. They each have their...","id":"2054740","snippets":[],"subject":{"id":"10","groupId":"6","name":"Literacy"},"city":"Phoenix","fundingStatus":"needs funding","povertyLevel":"High Poverty","zip":"85027-1688","title":"Creating Fluent Readers","freeShipping":"true","imageURL":"https://storage.donorschoose.net/dc_prod/images/user/small/u3627457_sm.jpg?timestamp=1464742716573","schoolUrl":"https://www.donorschoose.org/school/paseo-hills-elementary-school/67001/","state":"AZ","costToComplete":"71.20","latitude":"33.685895000000000","numDonors":"9","stateFullName":"Arizona","fulfillmentTrailer":"My students need plastic book boxes to last through the year and whisper phones to improve their reading fluency.","resource":{"id":"3","name":"Supplies"},"zone":{"id":"421","name":"Arizona"},"studentLed":false,"gradeLevel":{"id":"2","name":"Grades 3-5"},"longitude":"-112.129856000000000","thumbImageURL":"https://storage.donorschoose.net/dc_prod/images/user/small/u3627457_sm.jpg?timestamp=1464742716573","teacherTypes":[],"matchingFund":{"donorSalutation":"","name":"","amount":"0.00","faqURL":"","logoURL":"","matchingKey":"","type":"","ownerRegion":"","description":""},"teacherId":"3627457","schoolTypes":[{"id":13,"name":"CenturyLink"},{"id":3,"name":"Special Education"},{"id":12,"name":"Horace Mann (partner)"}]},{"totalPrice":"543.01","percentFunded":"74","additionalSubjects":[{"id":"10","groupId":"6","name":"Literacy"}],"schoolName":"Hayden Valley Elementary School","fundURL":"https://secure.donorschoose.org/donors/givingCart.html?proposalid=2043303&donationAmount=45&utm_source=api&utm_medium=feed&utm_content=fundlink&utm_campaign=DONORSCHOOSE","professionalDevelopment":false,"expirationDate":"2016-10-27","proposalURL":"https://www.donorschoose.org/project/help-kindergarteners-become-21st-century/2043303/?utm_source=api&utm_medium=feed&utm_content=bodylink&utm_campaign=DONORSCHOOSE","teacherName":"Ms. Hansen","numStudents":"30","shortDescription":"Kindergarteners are wonderful because they love learning. They are excited to come to school every day and learn something new.
+
+          I want my students to be 21 st Century learners.
+
+          We live in a...
+        ","
+        id ":"
+        2043303 ","
+        snippets ":[],"
+        subject ":{"
+        id ":"
+        8 ","
+        groupId ":"
+        4 ","
+        name ":"
+        Mathematics "},"
+        city ":"
+        Hayden ","
+        fundingStatus ":"
+        needs funding ","
+        povertyLevel ":"
+        High Poverty ","
+        zip ":"
+        81639 ","
+        title ":"
+        Help Kindergarteners Become 21 st Century Learners ","
+        freeShipping ":"
+        true ","
+        imageURL ":"
+        https: //storage.donorschoose.net/dc_prod/images/user/small/u2161311_sm.jpg?timestamp=1466911234775","schoolUrl":"https://www.donorschoose.org/school/hayden-valley-elementary-school/43316/","state":"CO","costToComplete":"141.25","latitude":"40.488876456404519","numDonors":"9","stateFullName":"Colorado","fulfillmentTrailer":"My students need four Osmo Genius Kits.","resource":{"id":"2","name":"Technology"},"zone":{"id":"422","name":"Colorado"},"studentLed":false,"gradeLevel":{"id":"1","name":"Grades PreK-2"},"longitude":"-107.262622612768400","thumbImageURL":"https://storage.donorschoose.net/dc_prod/images/user/small/u2161311_sm.jpg?timestamp=1466911234775","teacherTypes":[],"matchingFund":{"donorSalutation":"","name":"","amount":"0.00","faqURL":"","logoURL":"","matchingKey":"","type":"","ownerRegion":"","description":""},"teacherId":"2161311","schoolTypes":[{"id":13,"name":"CenturyLink"},{"id":3,"name":"Special Education"},{"id":12,"name":"Horace Mann (partner)"}]}],"totalProposals":"34702","searchURL":"https://www.donorschoose.org/donors/search.html?historic=true&utm_source=api&utm_medium=feed&utm_content=searchlink&utm_campaign=DONORSCHOOSE","searchTerms":"Most urgent"}

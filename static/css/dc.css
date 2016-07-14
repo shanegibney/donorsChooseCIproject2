@@ -220,3 +220,10 @@
 .table-cell-center {
   text-align: center;
 }
+
+.dc-chart svg {
+  overflow: visible
+}
+
+fundingBarChart
+   .margins({ top: 10, left: 430, right: 10, bottom: 100 })

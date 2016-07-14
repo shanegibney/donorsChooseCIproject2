@@ -14,16 +14,10 @@
 <body>
   <div>
     <h2>Bar Chart</h2></div>
-  <!-- <div id="test"></div> -->
   <div id="barchart"></div>
   <script>
     var text = '[';
     var obj;
-    // var str;
-    // var stateArray = [
-    // "AK", "AL", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR",
-    // "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"
-    // ];
     url = "/funding";
     d3.json(url, function(error, json_response) {
       for (var item in json_response['proposals']) {
@@ -35,10 +29,7 @@
       }
       text = text.substring(0, text.length - 1);
       text += ']';
-      // document.getElementById("test").innerHTML = "<p>" + text + "</p>";
       data = JSON.parse(text);
-      // document.getElementById("test2").innerHTML = "<p>" + data + "</p>";
-
       cf = crossfilter(data);
       fundingBarChart = dc.barChart("#barchart");
       stateDim = cf.dimension(function(d) {

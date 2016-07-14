@@ -1,0 +1,5 @@
+g .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-45deg);
+    font-size: 0.7em;
+}

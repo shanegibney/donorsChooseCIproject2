@@ -14,164 +14,154 @@
 <body>
   <div>
     <h2>Bar Chart</h2></div>
+  <div id="test"></div>
+  <div id="test2"></div>
   <div id="barchart"></div>
   <div id="barchart2"></div>
   <script>
-    // var text = '[';
-    // var obj;
-    // var str;
-    // url = "/funding";
-    // d3.json(url, function(error, json_response) {
-    //   for (var item in json_response['proposals']) {
-    //     // obj = {};
-    //     item = parseInt(item);
-    //     fund = json_response['proposals'][item]['totalPrice'];
-    //     state = json_response['proposals'][item]['state'];
-    //     obj = '{ "state":' + '"' + state + '"' + ', "fund":' + fund + '}';
-    //     text += obj + ',';
-    //   }
-    //   text = text.substring(0, text.length - 1);
-    //   text += ']';
-    //   data = JSON.parse(text);
-    //   // console.log(data);
-    //
-    //   var tex = "[";
-    //   for (var item in data) {
-    //     index = parseInt(item);
-    //     // console.log(typeof(index));
-    //     fund = data[item]['fund'];
-    //     // console.log(fund);
-    //     state = data[item]['state'];
-    //     obj = '{ "state":' + '"' + state + '"' + ', "fund":' + fund + '},';
-    //     tex += obj;
-    //   }
-    //   tex = tex.substring(0, tex.length - 1);
-    //   tex += "]";
-    //   document.getElementById("test").innerHTML = "<p>" + tex + "</p>";
-
-    var data = [{
-      state: "NJ",
-      fund: 2811.59
-    }, {
-      state: "NC",
-      fund: 449.98
-    }, {
-      state: "NY",
-      fund: 174.53
-    }, {
-      state: "NC",
-      fund: 500.32
-    }, {
-      state: "MD",
-      fund: 420.87
-    }, {
-      state: "OR",
-      fund: 2300.71
-    }, {
-      state: "PA",
-      fund: 360.59
-    }, {
-      state: "NY",
-      fund: 508.91
-    }, {
-      state: "PA",
-      fund: 454.91
-    }, {
-      state: "PA",
-      fund: 357.85
-    }];
+    var text = '[';
+    var obj;
+    var str;
+    url = "/funding";
+    d3.json(url, function(error, json_response) {
+      for (var item in json_response['proposals']) {
+        // obj = {};
+        item = parseInt(item);
+        fund = json_response['proposals'][item]['totalPrice'];
+        state = json_response['proposals'][item]['state'];
+        obj = '{ "state":' + '"' + state + '"' + ', "fund":' + fund + '}';
+        text += obj + ',';
+      }
+      text = text.substring(0, text.length - 1);
+      text += ']';
+      data = JSON.parse(text);
+      var stateArray = [
+        "AK", "AL", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR",
+        "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"
+      ];
+      // console.log(stateArray.indexOf("WY"));
+      var tex = "[";
+      for (var item in data) {
+        index = parseInt(item);
+        fund = data[item]['fund'];
+        state = data[item]['state'];
+        run = stateArray.indexOf(state);
+        obj = '{"state":' + '"' + state + '"' + ', "fund":' + fund + ', "run":' + run + '},';
+        tex += obj;
+      }
+      tex = tex.substring(0, tex.length - 1);
+      tex += "]";
+      document.getElementById("test").innerHTML = "<p>" + tex + "</p>";
+      // data = tex;
+      data = JSON.parse(tex);
+      // document.getElementById("test2").innerHTML = "<p>" + data + "</p>";
 
 
-    var fundingBarChart = dc.barChart("#barchart");
-    var ndx = crossfilter(data),
-    stateDim = ndx.dimension(function(d) {
-      return d.state;
-    }),
-    state_funds = stateDim.group().reduceSum(function(d) {
-      return d.fund;
+      var fundingBarChart = dc.barChart("#barchart");
+      var cf = crossfilter(data),
+        runDim = cf.dimension(function(d) {
+          return d.run;
+        }),
+        state_funds = runDim.group().reduceSum(function(f) {
+          return f.fund;
+        });
+        // stateDim = ndx.dimension(function(s) {
+        //   return s.state;
+        // });
+      // console.log(stateDim);
+
+      fundingBarChart
+        .width(1000).height(400)
+        .dimension(runDim)
+        .x(d3.scale.linear().domain([0, data.length + 1]))
+        // .x(d3.scale.ordinal().domain([
+        //   "AK", "AL", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR",
+        //   "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"
+        // ]))
+        // .dimension(stateDim)
+        .group(state_funds)
+        .brushOn(false)
+        // .legend(dc.legend().x(50).y(10).itemHeight(13).gap(5))
+        .yAxisLabel("Funding by State")
+        .xAxisLabel("State")
+        // .renderTitle(true).title(function(d) {
+        //    return 'test: ' + d.run; })
+        .renderHorizontalGridLines(true)
+        .label(function(s) { return f.state; })
+        .renderLabel(true)
+        .elasticX(true);
+
+        // labels = fundingBarChart.g().selectAll("rect.bar text");
+
+      dc.renderAll();
+      // fundingBarChart.render();
+
+
+      // var chart = dc.barChart("#barchart2");
+      // var data2 = [{
+      //   'Expt': 1,
+      //   Run: "a",
+      //   Speed: 85,
+      //   'title': 'Title1'
+      // }, {
+      //   'Expt': 1,
+      //   Run: "b",
+      //   Speed: 50,
+      //   'title': 'Title2'
+      // }, {
+      //   'Expt': 1,
+      //   Run: "c",
+      //   Speed: 90,
+      //   'title': 'Title3'
+      // }, {
+      //   'Expt': 1,
+      //   Run: "a",
+      //   Speed: 40,
+      //   'title': 'Title5'
+      // }, {
+      //   'Expt': 1,
+      //   Run: "b",
+      //   Speed: 107,
+      //   'title': 'Title4'
+      // }];
+      //
+      //
+      // var ndx2 = crossfilter(data2),
+      //   runDimension = ndx2.dimension(function(d) {
+      //     return d.Run;
+      //   }),
+      //   sumGroup = runDimension.group().reduceSum(function(d) {
+      //     return d.Speed;
+      //   });
+      //
+      //
+      // // console.log('time: ' + new Date().getTime());
+      // /*console.log(chart);*/
+      // chart
+      //   .width(768)
+      //   .height(480)
+      //   .gap(150)
+      //   .x(d3.scale.linear().domain([0, data2.length + 1]))
+      //   // .x(d3.scale.linear().domain([0, data.length + 1]))
+      //   .brushOn(true)
+      //   .centerBar(true)
+      //   .renderLabel(true)
+      //   .yAxisLabel("Y Axis")
+      //   .elasticX(true)
+      //   .dimension(runDimension)
+      //   .group(sumGroup)
+      //   .renderTitle(true).title(function(d) {
+      //     return 'test: ' + d.value;
+      //   })
+      //   .renderHorizontalGridLines(true)
+      //   .label(function(d) {
+      //     console.log(d);
+      //     return 'test';
+      //   });
+      // chart.render();
+      // labels = chart.g().selectAll("rect.bar text");
+      // console.log(labels);
     });
-
-    fundingBarChart
-      .width(500).height(200)
-      .dimension(stateDim)
-      .x(d3.scale.linear().domain([0, data.length + 1]))
-      .dimension(stateDim)
-      .group(state_funds)
-      .brushOn(false)
-      .legend(dc.legend().x(50).y(10).itemHeight(13).gap(5))
-      .yAxisLabel("Funding by State")
-      .xAxisLabel("State")
-      .elasticX(true);
-    
-    // dc.renderAll();
-    fundingBarChart.render();
-
-
-    // var chart = dc.barChart("#barchart2");
-    // var data2 = [{
-    //   'Expt': 1,
-    //   Run: "a",
-    //   Speed: 85,
-    //   'title': 'Title1'
-    // }, {
-    //   'Expt': 1,
-    //   Run: "b",
-    //   Speed: 50,
-    //   'title': 'Title2'
-    // }, {
-    //   'Expt': 1,
-    //   Run: "c",
-    //   Speed: 90,
-    //   'title': 'Title3'
-    // }, {
-    //   'Expt': 1,
-    //   Run: "a",
-    //   Speed: 40,
-    //   'title': 'Title5'
-    // }, {
-    //   'Expt': 1,
-    //   Run: "b",
-    //   Speed: 107,
-    //   'title': 'Title4'
-    // }];
-    //
-    //
-    // var ndx2 = crossfilter(data2),
-    //   runDimension = ndx2.dimension(function(d) {
-    //     return d.Run;
-    //   }),
-    //   sumGroup = runDimension.group().reduceSum(function(d) {
-    //     return d.Speed;
-    //   });
-    //
-    //
-    // // console.log('time: ' + new Date().getTime());
-    // /*console.log(chart);*/
-    // chart
-    //   .width(768)
-    //   .height(480)
-    //   .gap(150)
-    //   .x(d3.scale.linear().domain([0, data2.length + 1]))
-    //   // .x(d3.scale.linear().domain([0, data.length + 1]))
-    //   .brushOn(true)
-    //   .centerBar(true)
-    //   .renderLabel(true)
-    //   .yAxisLabel("Y Axis")
-    //   .elasticX(true)
-    //   .dimension(runDimension)
-    //   .group(sumGroup)
-    //   .renderTitle(true).title(function(d) {
-    //     return 'test: ' + d.value;
-    //   })
-    //   .renderHorizontalGridLines(true)
-    //   .label(function(d) {
-    //     console.log(d);
-    //     return 'test';
-    //   });
-    // chart.render();
-    // labels = chart.g().selectAll("rect.bar text");
-    // console.log(labels);
-    // });
   </script>
 </body>
 

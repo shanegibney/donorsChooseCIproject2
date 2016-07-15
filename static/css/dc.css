@@ -231,3 +231,6 @@ fundingBarChart
 table.barchart-table {
   width: 500px;
 }
+.dc-table-group {
+  display:none
+}

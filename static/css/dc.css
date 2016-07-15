@@ -227,3 +227,7 @@
 
 fundingBarChart
    .margins({ top: 10, left: 430, right: 10, bottom: 100 })
+
+table.barchart-table {
+  width: 500px;
+}

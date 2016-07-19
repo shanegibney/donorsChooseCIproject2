@@ -2,7 +2,7 @@
 
 The project uses the Python Flask framework
 
-* Uses the DonorsChhose API to graph total recent funding by state in the USA for completes proposals
+* Uses the DonorsChoose API to graph total recent funding by state in the USA for completes proposals
 
 * Generates a bar chart, pie chart and table for the data
 

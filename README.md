@@ -2,6 +2,8 @@
 
 The project uses the Python Flask framework
 
+Local path /home/pi/donorsChooseCIproject2/donorsChooseCIproject2
+
 Deployed to [shane.pythonanywhere.com](http://shane.pythonanywhere.com)
 
 This site will be disabled on Saturday 22 October 2016 unless otherwise renewed.
